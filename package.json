@@ -1,0 +1,11 @@
+{
+    "name": "hello-api",
+    "description": "Hello World API",
+    "author": "Eric",
+    "dependencies": {
+        "express": "^4.17.1"
+    },
+    "scripts": {
+        "strart": "node ./server.js"
+    }
+}
