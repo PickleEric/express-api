@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <h2>{{ helloMessage }}</h2>
+    <h2>{{ helloMessage }}</h2> <!--our Message is displayed here -->
   </div>
 </template>
 
@@ -17,7 +17,7 @@ export default {
     msg: String
   },
   mounted(){
-    this.$hello_api.getHelloMessage().then( resp => {
+    this.$hello_api.getHelloMessage().then( resp => { // our mounted function that is given a response and sends a hello message back 
       this.helloMessage = resp.message
     })
   }

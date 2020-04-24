@@ -6,10 +6,10 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from './components/HelloWorld.vue' // implaments our Helloworld.vue file 
 
 export default {
-  name: 'App',
+  name: 'App',//the data for our app
   components: {
     HelloWorld
   }
